@@ -1,6 +1,56 @@
 const express = require('express');
 
 const app = express();
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
+app.get('/', (req,res) => {
+    console.log('test route');
+
+    res.send('<h1>hello world</h1>');
+})
 
 
 app.get('/', (req,res) => {
