@@ -1,12 +1,20 @@
+const a = 'a';
 const express = require('express');
+const b = 'a';
+
 
 const app = express();
-
-
-
-
-
 app.get('/', (req,res) => {
+    console.log('test route');
+
+    console.log('test route');console.log('test route');console.log('test route');
+    console.log('test route');
+    console.log('test route');console.log('test route');
+    console.log('test route');
+    console.log('test route');
+    console.log('test route');
+    console.log('test route');
+    console.log('test route');
     console.log('test route');
     res.send('<h1>hello world</h1>');
 })
